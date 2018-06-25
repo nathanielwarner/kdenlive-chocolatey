@@ -10,7 +10,7 @@
 ## If this is an MSI, ensure 'softwareName' is appropriate, then clean up comments and you are done.
 ## If this is an exe, change fileType, silentArgs, and validExitCodes
 
-$ErrorActionPreference = 'Stop'; # stop on all errors
+<#$ErrorActionPreference = 'Stop'; # stop on all errors
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'kdenlive*'  #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
@@ -73,5 +73,5 @@ if ($key.Count -eq 1) {
 #Uninstall-ChocolateyZipPackage $packageName # Only necessary if you did not unpack to package directory - see https://chocolatey.org/docs/helpers-uninstall-chocolatey-zip-package
 #Uninstall-ChocolateyEnvironmentVariable # 0.9.10+ - https://chocolatey.org/docs/helpers-uninstall-chocolatey-environment-variable 
 #Uninstall-BinFile # Only needed if you used Install-BinFile - see https://chocolatey.org/docs/helpers-uninstall-bin-file
-## Remove any shortcuts you added in the install script.
+## Remove any shortcuts you added in the install script.#>
 

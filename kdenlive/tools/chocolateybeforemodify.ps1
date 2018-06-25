@@ -7,3 +7,12 @@
 # NOTE: For upgrades - like the uninstall script, this script always runs from 
 #  the currently installed version, not from the new upgraded package version.
 
+$kdenlive = Get-Process kdenlive.exe -ErrorAction Silent
+if ($kdenlive) {
+	$kdenlive.CloseMainWindow()
+	Sleep 5
+	if (!$kdenlive.HasExited) {
+		$kdenlive | Stop-Process -Force
+	}
+}
+Remove-Variable kdenlive
