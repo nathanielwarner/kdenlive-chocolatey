@@ -1,21 +1,9 @@
-﻿$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+﻿$packageName = $env:ChocolateyPackageName
+$url = 'https://files.kde.org/kdenlive/release/kdenlive-18.12.1.exe'
 
-$url64      = 'https://files.kde.org/kdenlive/release/Kdenlive-18.04.1d-w64.zip'
+$checksum = 'F37F148922244999080FACD5EFE796CBE785F66C78008335D7F356640EDC2A5A'
+$checksumType = 'sha256'
 
-$packageName   = $env:ChocolateyPackageName
+$silentArgs = '/S'
 
-$softwareName  = 'kdenlive*'
-
-$checksum64    = 'D1BC33D1C32F9E2343D9A91BCD6DEB864C5C598A08C88DC2E8F7AA46CC45D35F'
-$checksumType64= 'sha256'
-
-$fileName = "Kdenlive-18.04.1\kdenlive.exe"
-$linkName = "kdenlive.lnk"
-$destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-
-Install-ChocolateyZipPackage -PackageName $packageName -Url64Bit $url64 -UnzipLocation $toolsDir -Checksum64 $checksum64 -ChecksumType64 $checksumType64
-
-$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs $linkName
-$targetPath = Join-Path $destdir $fileName
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+Install-ChocolateyPackage -PackageName $packageName -FileType $fileType -SilentArgs $silentArgs -Url $url -Checksum $checksum -ChecksumType $checksumType
