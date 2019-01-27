@@ -1,0 +1,1 @@
+Uninstall-ChocolateyPackage 'kdenlive' 'EXE' '/S' 'C:\Program Files\kdenlive\uninstall.exe'
