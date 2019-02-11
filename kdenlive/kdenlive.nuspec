@@ -8,7 +8,7 @@
     <title>kdenlive (Install)</title>
     <authors>Bushuev A., Simon A. Eugster, Jean-Baptiste Mardelle, Roger Morton, Vincent Pinon</authors>
     <projectUrl>https://kdenlive.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/nathanielwarner/kdenlive-chocolatey/icon.PNG</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/nathanielwarner/kdenlive-chocolatey/icon.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.txt</licenseUrl>
     <docsUrl>https://userbase.kde.org/Kdenlive/Manual</docsUrl>
     <mailingListUrl>https://mail.kde.org/mailman/listinfo/kdenlive</mailingListUrl>
