@@ -1,9 +1,10 @@
-﻿$packageName = 'kdenlive'
-$url = 'https://files.kde.org/kdenlive/release/kdenlive-18.12.1.exe'
+﻿$InstallArgs = @{
+    PackageName = 'kdenlive'
+    FileType = 'EXE'
+    SilentArgs = '/S'
+    Url = 'https://files.kde.org/kdenlive/release/kdenlive-18.12.1.exe'
+    ChecksumType = 'sha256'
+    Checksum = 'F37F148922244999080FACD5EFE796CBE785F66C78008335D7F356640EDC2A5A'
+}
 
-$checksum = 'F37F148922244999080FACD5EFE796CBE785F66C78008335D7F356640EDC2A5A'
-$checksumType = 'sha256'
-
-$silentArgs = '/S'
-
-Install-ChocolateyPackage -PackageName $packageName -FileType $fileType -SilentArgs $silentArgs -Url $url -Checksum $checksum -ChecksumType $checksumType
+Install-ChocolateyPackage @InstallArgs
