@@ -12,7 +12,7 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.txt</licenseUrl>
     <docsUrl>https://userbase.kde.org/Kdenlive/Manual</docsUrl>
     <mailingListUrl>https://mail.kde.org/mailman/listinfo/kdenlive</mailingListUrl>
-    <bugTrackerUrl>https://bugs.kde.org/buglist.cgi?bug_status=__open__&list_id=1248416&order=Importance&product=kdenlive</bugTrackerUrl>
+    <bugTrackerUrl>https://bugs.kde.org/buglist.cgi</bugTrackerUrl>
     <projectSourceUrl>https://cgit.kde.org/kdenlive.git/</projectSourceUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>kdenlive video editor non-linear</tags>
