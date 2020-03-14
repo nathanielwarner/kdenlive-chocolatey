@@ -2,9 +2,9 @@
     PackageName = 'kdenlive'
     FileType = 'EXE'
     SilentArgs = '/S'
-    Url = 'https://files.kde.org/kdenlive/release/kdenlive-19.12.1.exe'
+    Url = 'https://files.kde.org/kdenlive/release/kdenlive-19.12.3.exe'
     ChecksumType = 'sha256'
-    Checksum = '4D3ED315367C75BC74A74A62A4A93FB889041791BFD364C463092A5C1EE41B1D'
+    Checksum = '95EE0A8BB8C111756C151AAB5936E963BE22949D36B29F44673AF4CBC44B6660'
 }
 
 Install-ChocolateyPackage @InstallArgs
