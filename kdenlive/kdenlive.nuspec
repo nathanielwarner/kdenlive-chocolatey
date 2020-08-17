@@ -12,8 +12,8 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.txt</licenseUrl>
     <docsUrl>https://userbase.kde.org/Kdenlive/Manual</docsUrl>
     <mailingListUrl>https://mail.kde.org/mailman/listinfo/kdenlive</mailingListUrl>
-    <bugTrackerUrl>https://bugs.kde.org/buglist.cgi</bugTrackerUrl>
-    <projectSourceUrl>https://cgit.kde.org/kdenlive.git/</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.kde.org/describecomponents.cgi?product=kdenlive</bugTrackerUrl>
+    <projectSourceUrl>https://invent.kde.org/multimedia/kdenlive</projectSourceUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>kdenlive video editor non-linear</tags>
     <summary>A powerful non-linear video editor</summary>
