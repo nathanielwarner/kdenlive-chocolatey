@@ -1,3 +1,5 @@
+﻿$ErrorActionPreference = 'Stop'
+
 $UninstallArgs = @{
     PackageName = 'kdenlive'
     FileType = 'EXE'
