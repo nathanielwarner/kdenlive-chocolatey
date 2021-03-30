@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>kdenlive</id>
-    <version>20.12.2</version>
+    <version>20.12.3</version>
     <packageSourceUrl>https://github.com/nathanielwarner/kdenlive-chocolatey</packageSourceUrl>
     <owners>Nathaniel Warner</owners>
     <title>kdenlive (Install)</title>
