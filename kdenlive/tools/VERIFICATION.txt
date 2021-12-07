@@ -1,5 +1,5 @@
 1. Download installer at 
-   x32: https://download.kde.org/stable/kdenlive/21.08/windows/kdenlive-21.08.1.exe
+   x32: https://download.kde.org/stable/kdenlive/21.08/windows/kdenlive-21.08.3.exe
 
 2. Get checksums of downloaded binary and included binary
 
