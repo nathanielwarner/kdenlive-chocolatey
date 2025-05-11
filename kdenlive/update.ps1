@@ -1,6 +1,6 @@
 ﻿Import-Module AU
 
-$releases = 'https://kdenlive.org/en/download/'
+$releases = 'https://kdenlive.org/download/'
 
 function global:au_SearchReplace {
     @{
